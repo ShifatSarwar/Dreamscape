@@ -1,0 +1,204 @@
+body {
+ margin: 0;
+ padding: 0;
+ background: #202125;
+}
+
+.subheader{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    padding: 10px;
+    color: #5e899e;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header div{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    padding: 10px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.paragraph{
+    position: absolute;
+    top: 37.5%;
+    left: 50%;
+    text-align: justify;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    padding: 10px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+}
+
+
+.list{
+    border: 10px solid #1a0000;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    padding: 15px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    font-style: italic;  
+}
+
+.contactinfo{
+  position: absolute;
+  bottom: -190%;
+    left: 5%;
+    line-height: 1.25;
+    padding: 20px;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 12px;  
+}
+
+.header div span{
+    color: #cc0000 !important;
+ }
+
+ .gallery-image {
+    position: absolute;
+    top: 85%;
+    left:10%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-image img {
+  height: 250px;
+  width: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 10px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 250px;
+  width: 350px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img { 
+  transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {
+  cursor: pointer;
+}
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+
+.lastmodified{
+    position: absolute;
+    bottom:-190%;
+    right:5%;
+    text-align: right;
+    padding: 5px;
+    line-height: 0.5;
+    color: white;
+    font-size: 13px;
+}
+
+.mycartoon{
+    position: absolute;
+    top:-12%;
+    right:-3%;
+}
+
+.title{
+    font-style: normal;
+    position:absolute;
+    text-align: justify;
+    top:75%;
+    left:10%;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+.title2{
+    font-style: normal;
+    position:absolute;
+    text-align: justify;
+    top:137.5%;
+    left:25%;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+
+table {
+   width: 25%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+    border: 7px solid;
+    border-color: #525969;
+    padding: 10px;
+    text-align: left;
+    color: white;
+    font-family: 'Exo', sans-serif;
+}
+.table{
+    font-style: normal;
+    position:absolute;
+    top:155%;
+    left:25%;
+}
+
+
+
