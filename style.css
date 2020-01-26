@@ -1,29 +1,18 @@
 body {
- margin: 0;
- padding: 0;
  background: #202125;
 }
 
 .subheader{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 40px;
-    padding: 10px;
     color: #5e899e;
+    padding-bottom: 20px;
     font-family: 'Exo', sans-serif;
     font-size: 20px;
     font-weight: bold;
 }
 
-.header div{
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 40px;
-    padding: 10px;
+header{
+  background: black;
+  text-align: center;
     color: white;
     font-family: 'Exo', sans-serif;
     font-size: 80px;
@@ -31,13 +20,7 @@ body {
 }
 
 .paragraph{
-    position: absolute;
-    top: 37.5%;
-    left: 50%;
-    text-align: justify;
-    transform: translate(-50%, -50%);
-    height: 40px;
-    padding: 10px;
+      text-align: justify;
     color: white;
     font-family: 'Exo', sans-serif;
     font-size: 15px;
@@ -45,26 +28,24 @@ body {
 
 
 .list{
-    border: 10px solid #1a0000;
-    position: absolute;
-    top: 25%;
-    left: 5%;
-    padding: 15px;
-    color: white;
-    font-family: 'Exo', sans-serif;
-    font-size: 15px;
-    font-style: italic;  
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 10px solid #1a0000;
+  color: white;
+  font-family: 'Exo', sans-serif;
+  font-size: 15px;
+  font-style: italic;  
 }
 
 .contactinfo{
-  position: absolute;
-  bottom: -190%;
-    left: 5%;
-    line-height: 1.25;
-    padding: 20px;
+  padding-top: 30px;
+    text-align: left;
+    padding: 5px;
+    line-height: 0.95;
     color: white;
-    font-family: 'Exo', sans-serif;
-    font-size: 12px;  
+    font-size: 13px;
 }
 
 .header div span{
@@ -72,9 +53,6 @@ body {
  }
 
  .gallery-image {
-    position: absolute;
-    top: 85%;
-    left:10%;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -144,9 +122,6 @@ body {
 }
 
 .lastmodified{
-    position: absolute;
-    bottom:-190%;
-    right:5%;
     text-align: right;
     padding: 5px;
     line-height: 0.5;
@@ -154,51 +129,93 @@ body {
     font-size: 13px;
 }
 
-.mycartoon{
-    position: absolute;
-    top:-12%;
-    right:-3%;
-}
-
 .title{
     font-style: normal;
-    position:absolute;
     text-align: justify;
-    top:75%;
-    left:10%;
+    padding-top: 30px;
+    padding-left: 50px;
     color: white;
     font-family: 'Exo', sans-serif;
 }
 
 .title2{
     font-style: normal;
-    position:absolute;
-    text-align: justify;
-    top:137.5%;
-    left:25%;
+    padding-top:30px;
+    padding-left: 50px;
     color: white;
     font-family: 'Exo', sans-serif;
 }
 
-table {
-   width: 25%;
-  border-collapse: collapse;
+table.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table, th, td {
     border: 7px solid;
-    border-color: #525969;
+    padding: 30px;
+    border-color: black;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     color: white;
     font-family: 'Exo', sans-serif;
 }
-.table{
-    font-style: normal;
-    position:absolute;
-    top:155%;
-    left:25%;
+
+
+nav {
+
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  width: 20%;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 30px;
 }
+nav ul {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+article {
+
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+  padding: 30px;
+  width: 90%;
+}
+section{
+
+  margin-left: auto;
+  margin-right: auto;
+  float:left;
+  height: 15%;
+  width:85%;
+}
+aside{
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 75px;
+  float:right;
+  width: 15%;
+  height: 15%;
+}
+
+.table{
+  padding: 30px;
+}
+
+.navclass {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
 
 
 
