@@ -30,29 +30,6 @@ header{
     font-size: 15px;
 }
 
-
-.list{
-
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  padding: 10px;
-  border: 10px solid #1a0000;
-  color: white;
-  font-family: 'Exo', sans-serif;
-  font-size: 15px;
-  font-style: italic;  
-}
-
-.contactinfo{
-  padding-top: 30px;
-    text-align: left;
-    padding: 5px;
-    line-height: 0.95;
-    color: white;
-    font-size: 13px;
-}
-
 .header div span{
     color: #cc0000 !important;
  }
@@ -156,59 +133,68 @@ table.center {
   margin-right: auto;
 }
 
-table, th, td {
+th,td{
     border: 7px solid;
-    padding: 30px;
     border-color: black;
-    padding: 10px;
     text-align: center;
     color: white;
     font-family: 'Exo', sans-serif;
 }
 
-
-nav {
-  float: left;
-  width: 20%;
-  padding-left: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 30px;
-}
-nav ul {
-  padding: 20px;
-}
-
-article {
-
-  float: center;
+.t2{
+  border: 7px; 
   padding: 30px;
-  width: 90%;
 }
-section{
-  float:left;
-  height: 15%;
-  width:85%;
+
+.td1{
+  border:3px solid black;
+  padding:20px;
+  text-align: left;
+  width:15%;
 }
-aside{
-  padding-top: 75px;
-  float:right;
-  width: 15%;
-  height: 15%;
+
+.td2{
+  border:transparent;
+  padding: 20px;
+  width:70%;
+  text-align: center;
+}
+.td3{
+  border:transparent;
+  padding-top: 10px; 
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  width:15%;
 }
 
 .table{
   padding: 30px;
 }
 
-.navclass {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 25px;
+.td4{
+  border:transparent;
+  line-height: 0.95;
+  font-size: 12px;
   color: white;
+  text-align:left;
+  width:25%;
 }
+
+.td5{
+  border:transparent;
+  width:12%;
+  text-align: left;
+}
+.td6{
+  border:transparent;
+  color: white;
+  text-align: right;
+  width:30%;
+}
+
+
 
 
 
