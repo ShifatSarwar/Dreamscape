@@ -1,10 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="">
-	<title>Fun HTML</title>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js">
-	</script>
-</head>
+    <head>
+	    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" type="text/css" href="style2.css">
+	    <title>Fun Webpage</title>
+	    <script defer src="functions.js"></script>
+    </head>
+    <header>
+	    <div class="boxofwisdom" id="boxofwisdom">
+		    <p></p>
+	    </div>
+	    <div class="colorchanger">
+		    <table>
+			    <tbody>
+                    <tr>
+                        <td>&nbsp;
+                        	<button style="background-color: red" onclick="changeColors('red')"></button>
+                        </td>
+                        <td>&nbsp;
+                        	<button style="background-color: green"onclick="changeColors('green')"></button>
+                        </td>
+                    </tr>
+                    <tr>
+          	            <td>&nbsp;
+          	            	<button style="background-color: blue" onclick="changeColors('blue')"></button>
+          	            </td>
+          	            <td>&nbsp;
+          	            	<button style="background-color: purple" onclick="changeColors('purple')"></button>
+          	            </td>
+                    </tr>
+                </tbody>
+		    </table>
+        </div>
+    </header>
+    <body onload="change()">
+	    <h1 style="font-style: bold; padding-left: 2%; ">Hero Converter</h1>
+	    <div class="converterbox">
+		    <label>Converter: </label>
+		   	<input type="text" id="valueinput">
+		   	<select id="choice">
+			    <option value="poundtokg">lb to kg</option>
+	   	        <option value="kgtopound">kg to lb</option>
+	   	    </select>
+		    <button style="padding: 5px 15px"onclick="convert()">Go</button>
+		    <label style="padding-left: 5px"id="outputbox"></label>
+	    </div>
+	    <h1 style="font-style: bold; padding-left: 2%; ">Series of Numbers</h1>
+	    <div style="padding-left: 2%">
+	        <div class="numbersbox" style="padding-bottom:2%"">
+	    	    <label style="padding-right:10px ">Input Series of Numbers</label>
+	    	    <input type="text" id="numinput" onkeyup ="funwithnumbers()">
+	        </div>
+	        <div>
+	            <label style="padding-right:10px; padding-left:122px">Max :</label>
+	            <label style="padding-left:10px" id="maxout"></label>
+	        </div>
+	        <div>
+	        	<label style="padding-right:10px; padding-left:125px">Min :</label>
+	        	<label style="padding-left:10px" id="minout"></label>
+	        </div>
+	        <div>
+	        	<label style="padding-right:10px; padding-left:122px">Sum :</label>
+	        	<label style="padding-left:10px" id="sumout"></label>
+	        </div>
+	        <div>
+	        	<label style="padding-right:10px; padding-left:99px ">Average :</label>
+	        	<label style="padding-left:10px" id="avgout"></label>
+	        </div>
+	        <div>
+	        	<label style="padding-right:10px; padding-left:100px">Reverse :</label>
+	        	<label style="padding-left:10px" id="reverseout"></label>
+	        </div>    
+	    </div>
+	    <h1 style="font-style: bold; padding-left: 2%;">Lets Try Some Coding Magic:</h1>
+	    <div style="padding-left: 15%">
+	    	<div class="magicboxarea">
+	    	<h1>Magic Box</h1>
+	    	<textarea cols="82" rows="15" id="maintext"></textarea>
+	    	<div>
+	    		<button onclick="clearall()">Clear It</button>
+	    		<button onclick="caseconvert()">Capitalize</button>
+	    		<button onclick="sorttext()">Sort</button>
+	    		<button onclick="reversetext()">Reverse</button>
+	    		<button onclick="stripblank()">Strip Blank</button>
+	    		<button onclick="addNumber()">Add Numbers</button>
+	    		<button onclick="shuffle()">Shuffle</button>
+	    	</div>
+	    	</div>
+	    </div>
+    </body>
+    <footer>
+    	<p></p>
+    	<p style="text-align:center; " >Okay, it works.</p>
+    </footer>
+</html>
