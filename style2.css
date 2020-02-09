@@ -1,0 +1,37 @@
+body{
+	background-color: brown;
+}
+.boxofwisdom{
+	text-align: center;
+	padding: 8px;
+    border: 3px solid black;
+    margin-top: 1.5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.colorchanger{
+	margin-left: 3px;
+	position: absolute;
+	top: 0.55%;
+	right: 10%;
+	padding: 2px;
+}
+
+button{
+  border: none;
+  margin: 0;
+  padding: 15px 15px;
+}
+
+.converterbox{
+	border: 2px solid black;
+	padding: 5px;
+	margin-right: 30%;
+	margin-left: 2%;
+}
+
+textarea{
+	resize:none;
+}
+
